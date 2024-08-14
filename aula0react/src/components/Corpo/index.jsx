@@ -3,6 +3,8 @@ import './index.css'
 function Corpo() {
     return (
       <div className="corpo-container">
+        <img className='chuchu' src='./images/transferir.png' alt='foto de uma coisa '/>
+       
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ullam expedita ea asperiores sapiente totam ipsum quisquam
              omnis velit temporibus amet porro, atque impedit eius eum doloribus, voluptates doloremque quo.</p>
       </div>

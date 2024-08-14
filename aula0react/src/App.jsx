@@ -1,6 +1,5 @@
 import './App.css'
-import Corpo from './components/Corpo'
-import Header from './components/Header'
+import Casa from './pages/Casa'
 
 
 function App() {
@@ -8,10 +7,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      <Header/>
-      <Corpo/>     
-      <Corpo/>     
-      <Corpo/>     
+      <Casa/>
        
     </div>
   )
