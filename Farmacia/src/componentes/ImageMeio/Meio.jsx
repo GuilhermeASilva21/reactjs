@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Meio.css'
 function ImageMeio() {
   return (
     <div>
