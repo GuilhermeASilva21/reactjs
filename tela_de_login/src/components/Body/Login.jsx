@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-
+import Logo from '../Logo/Logo';
 const Login = () => {
  
 
@@ -25,7 +25,8 @@ const Login = () => {
         </div>
         <div className="login-right">
           <div className="brand-logo">
-            <h2>FUT AGENDA</h2>
+            <Logo/>
+          
           </div>
           <p>Não possui Cadastro?</p>
           <button className="register-button" >
