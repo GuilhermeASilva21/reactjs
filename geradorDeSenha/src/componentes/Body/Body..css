@@ -1,0 +1,32 @@
+.Body {
+    margin: 20px;
+  }
+  
+  .botoes button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botoes button:hover {
+    background-color: #2d4373;
+  }
+  
+  .display {
+    margin-top: 20px;
+  }
+  
+  .display h2 {
+    font-size: 24px;
+  }
+  
+  .filaVazia {
+    color: red;
+    font-weight: bold;
+  }
+  
