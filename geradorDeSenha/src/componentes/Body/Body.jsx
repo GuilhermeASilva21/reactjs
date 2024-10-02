@@ -1,4 +1,5 @@
 import React from 'react';
+import './Body.css';
 
 function Body({ gerarSenha, chamarProximaSenha, senhaAtual, filaVazia }) {
   return (

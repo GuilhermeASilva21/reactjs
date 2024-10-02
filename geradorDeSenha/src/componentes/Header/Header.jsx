@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="Header">
       <Logo />
-      <h1>Controle de Senhas - Farmácia</h1>
+      <h1>Pegue sua senha aqui!!!</h1>
     </header>
   );
 }

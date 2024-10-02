@@ -1,12 +1,21 @@
 .Body {
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    flex-direction: column;
+    text-align: center;
+      
+      
   }
   
   .botoes button {
     margin: 10px;
     padding: 15px 30px;
     font-size: 16px;
-    background-color: #3b5998;
+    background-color:  #ce1f3a;
     color: white;
     border: none;
     border-radius: 5px;
@@ -14,7 +23,7 @@
   }
   
   .botoes button:hover {
-    background-color: #2d4373;
+    background-color: #e23e57;
   }
   
   .display {
