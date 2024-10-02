@@ -1,0 +1,19 @@
+create table cliente(
+id SERIAL primary key,
+nome varchar(100) not null
+)
+
+CREATE TABLE endereco (
+    id SERIAL PRIMARY KEY,
+    rua VARCHAR(255) NOT NULL,
+    numero int(50) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    cliente_id INTEGER UNIQUE REFERENCES cliente(id) 
+    compras_id INTEGER REFERENCES compras(id)
+);
+
+create table compras(
+id SERIAL primary key,
+produto VARCHAR (255)NOT NULL,
+preco int (50)NOT NULL
+);
